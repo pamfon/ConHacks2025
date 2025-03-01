@@ -1,0 +1,34 @@
+﻿@model TBDName.ViewModels.SelectTopicViewModel;
+
+@{
+	ViewData["Title"] = "Select a Topic";
+}
+
+<h1>Select a Topic</h1>
+<p>
+	You are playing in <b>
+		@(Model.Subdivision != null ? Model.Subdivision.Name : "Federal Level")
+	</b> of <b>@Model.Country.Name</b>
+</p>
+
+<div class="card-container">
+	@foreach(var topic in Model.Topics) 
+	{
+		
+		<div class="card card-topic" onclick="toggleDropdown("@topic.Id")">
+			<h2>@topic.Name</h2>
+		</div>
+
+		<div id="dropdown-@topic.Id" class="dropdown-container">
+			<a href="@Url.Action("StartFight", "Game", new { countryId = Model.Country.Id, subdivisionId = Model.Subdivision?.Id, topicId = topic.Id, mode = "practice" })" class="dropdown-option">Practice Battle</a>
+			<a href="@Url.Action("StartFight", "Game", new { countryId = Model.Country.Id, subdivisionId = Model.Subdivision?.Id, topicId = topic.Id, mode = "quiz" })" class="dropdown-option">Boss Quiz</a>
+		</div>
+	}
+</div>
+
+<script>
+	function toggleDropdown(topicId) {
+		var dropdown = document.getElementById("dropdown-" + topicId);
+		dropdown.classList.toggle('show-dropdown');
+	}
+</script>

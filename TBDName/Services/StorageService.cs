@@ -14,9 +14,9 @@ namespace TBDName.Services
             List<User> users = new List<User>();
 
             // Check if the file exists
-            if (File.Exists("Users.csv"))
+            if (File.Exists("Data/Users.csv"))
             {
-                var lines = File.ReadAllLines("Users.csv");
+                var lines = File.ReadAllLines("Data/Users.csv");
 
                 // Skip the header and load user data from each line
                 foreach (var line in lines.Skip(1)) // Skipping the header row
@@ -35,7 +35,7 @@ namespace TBDName.Services
             {
                 // If the file doesn't exist, create an empty list and return it
                 // You can also create the file here if you want to initialize it
-                File.WriteAllText("Users.csv", "UserID,Name,XP,Level\n"); // Create the file with headers
+                File.WriteAllText("Data/Users.csv", "UserID,Name,XP,Level\n"); // Create the file with headers
             }
 
             return users;
@@ -46,7 +46,7 @@ namespace TBDName.Services
         public void SaveUser(User user)
         {
             var line = $"{user.UserID},{user.Name},{user.XP},{user.Level}";
-            File.AppendAllLines("Users.csv", new[] { line });
+            File.AppendAllLines("Data/Users.csv", new[] { line });
         }
 
         // Method to load questions from CSV
@@ -74,7 +74,7 @@ namespace TBDName.Services
         {
             List<Enemy> enemies = new List<Enemy>();
 
-            var lines = File.ReadAllLines("Enemies.csv");
+            var lines = File.ReadAllLines("Data/Enemies.csv");
             foreach (var line in lines.Skip(1)) // Skip header
             {
                 var columns = line.Split(',');
@@ -93,9 +93,100 @@ namespace TBDName.Services
         public void SaveProgress(User player)
         {
             string progressLine = $"{player.Name},{player.XP},{player.Level}";
-            File.AppendAllLines("UserProgress.csv", new[] { progressLine });
+            File.AppendAllLines("Data/UserProgress.csv", new[] { progressLine });
         }
-    }
+
+        // Loading list of countries from CSV
+        public List<Country> LoadCountries()
+        {
+            List<Country> countries = new List<Country>();
+            string filePath = "Data/Countries.csv";
+
+            if(!File.Exists(filePath))
+            {
+                File.WriteAllText(filePath, "Id,Name");
+                return countries;
+            }
+
+            var lines = File.ReadAllLines(filePath);
+            foreach (var line in lines.Skip(1))
+            {
+                var columns = line.Split(',');
+
+                if (columns.Length >= 1)
+                {
+                    countries.Add(new Country
+                    {
+                        Id = columns[0],
+                        Name = columns[1],
+                    });
+                }
+            }
+
+            return countries;
+        }
+
+        public List<Subdivision> LoadSubdivisions(string countryId)
+        {
+            var subdivisions = new List<Subdivision>();
+            var filePath = "Data/Subdivisions.csv";
+
+            if (!File.Exists(filePath))
+            {
+                return subdivisions;
+            }
+
+            var lines = File.ReadAllLines(filePath);
+
+            foreach (var line in lines.Skip(1))
+            {
+                var columns = line.Split(',');
+
+                if (columns.Length >= 2 && columns[0].Trim() == countryId)
+                {
+                    subdivisions.Add(new Subdivision
+                    {
+                        Id = columns[1],
+                        Name = columns[2],
+                        Type = columns[3]
+                    });
+                }
+            }
+
+            return subdivisions;
+        }
+
+		public List<Topic> LoadTopics()
+		{
+			string filePath = "Data/Topics.csv";
+			List<Topic> topics = new List<Topic>();
+
+			if (!File.Exists(filePath))
+			{
+				File.WriteAllText(filePath, "Id,Name" +
+											"governance,Governance\n" +
+											"rights,Rights\n" +
+											"laws,Laws");
+			}
+
+			var lines = File.ReadAllLines(filePath);
+
+			foreach (var line in lines.Skip(1))
+			{
+				var columns = line.Split(",");
+				if (columns.Length >= 2)
+				{
+					topics.Add(new Topic
+					{
+						Id = columns[0],
+						Name = columns[1],
+					});
+				}
+			}
+
+			return topics;
+		}
+	}
 }
 
 

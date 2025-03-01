@@ -1,0 +1,5 @@
+﻿CountryId,SubdivisionId,Name,Type
+canada,ON,Ontario,Province
+canada,QC,Quebec,Province
+canada,BC,British Columbia,Province
+canada,AB,Alberta,Province

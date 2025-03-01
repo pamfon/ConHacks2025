@@ -1,0 +1,27 @@
+﻿@model TBDName.ViewModels.SelectLevelViewModel
+
+@{
+	ViewData["Title"] = "Select Level";
+}
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<h1>Select your Government Level!</h1>
+<p>You are playing in <b>@Model.Country.Name</b></p>
+
+<div class="card-container">
+	<a href="@Url.Action("SelectTopic", "Home", new {countryId = Model.Country.Id })" class="card card-level">
+		<h2>Federal</h2>
+	</a>
+
+	@if (Model.Subdivisions.Any())
+	{
+		@foreach (var subdivision in Model.Subdivisions)
+		{
+				<a href="@Url.Action("SelectTopic", "Home", new { countryId = Model.Country.Id, subdivisionId = subdivision.Id })", class="card card-level">
+				<h2>@subdivision.Name</h2>
+				<p>@subdivision.Type</p>
+				</a>
+		}
+	}
+</div>

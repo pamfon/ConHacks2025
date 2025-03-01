@@ -1,0 +1,96 @@
+﻿:root {
+    font-size: 16px;
+}
+
+/* Container to align cards properly */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: stretch; /* Ensures all cards stretch to the same height */
+}
+
+/* Base Card Style */
+.card {
+    background: #fff;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    width: 14rem; /* Fixed width */
+    height: 6rem; /* Fixed height to match all cards */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers text inside */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure text inside doesn't break */
+.card h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 0;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        max-width: 10rem;
+    }
+}
+
+.card-country {
+    background: linear-gradient(to bottom, #f0f8ff, #dceaf7); /* Light blue */
+}
+
+.card-topic {
+    background: linear-gradient(to bottom, #fff8e1, #ffe0b2); /* Light yellow */
+}
+
+.dropdown-container {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    width: 12.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.dropdown-option {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.2s;
+}
+
+.dropdown-option:hover {
+    background: #eee;
+}
+
+.show-dropdown {
+    display: flex;
+}
+
+.card-level {
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Light green */
+}

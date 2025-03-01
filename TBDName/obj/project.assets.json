@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Paulo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Aden\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\TBDName.csproj",
+      "projectUniqueName": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
       "projectName": "TBDName",
-      "projectPath": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\TBDName.csproj",
-      "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\obj\\",
+      "projectPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+      "packagesPath": "C:\\Users\\Aden\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Aden\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -75,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

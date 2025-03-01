@@ -1,0 +1,21 @@
+﻿@model List<TBDName.Models.Country>
+
+@{
+	ViewData["Title"] = "Select a Country";
+}
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<div>
+	<h1>Select a Country</h1>
+</div>
+
+<div class="card-container">
+
+	@foreach (var country in Model)
+	{
+		<a href="@Url.Action("SelectLevel", "Home", new { countryId = country.Id})" class="card card-country">
+			<h2>@country.Name</h2>
+		</a>
+	}
+</div>

@@ -2,6 +2,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using TBDName.Services;
 using TBDName.Models;
+using System.Diagnostics;
+using System.Diagnostics.Metrics;
+using TBDName.ViewModels;
 
 namespace TBDName.Controllers
 {
@@ -17,7 +20,8 @@ namespace TBDName.Controllers
         // GET: Home/Index
         public IActionResult Index()
         {
-            return View();
+
+			return View();
         }
 
         // POST: Home/CheckUser
@@ -32,8 +36,8 @@ namespace TBDName.Controllers
 
             if (existingUser != null)
             {
-                // Redirect to the player stats page if user exists
-                return RedirectToAction("Stats", "User", new { userId = existingUser.UserID });
+                // Redirect to the country selection page
+                return RedirectToAction("SelectCountry");
             }
             else
             {
@@ -43,9 +47,64 @@ namespace TBDName.Controllers
                 // Save the new user to the storage (CSV)
                 _storageService.SaveUser(newUser);
 
-                // Redirect to the player stats page for the newly created user
-                return RedirectToAction("Stats", "User", new { userId = newUser.UserID });
+                // Redirect to the country selection page
+                return RedirectToAction("SelectCountry");
             }
+        }
+
+        // The country selection page
+        public IActionResult SelectCountry()
+        {
+            var countries = _storageService.LoadCountries();
+
+			return View(countries);
+        }
+
+        public IActionResult SelectLevel(string countryId)
+        {
+            var countries = _storageService.LoadCountries();
+            var country = countries.FirstOrDefault(c => c.Id == countryId);
+
+            if (country == null) { return NotFound(); }
+
+			var subdivisions = _storageService.LoadSubdivisions(countryId);
+
+            var model = new SelectLevelViewModel
+            {
+                Country = country,
+                Subdivisions = subdivisions
+            };
+
+
+            return View(model);
+        }
+
+        
+        public IActionResult SelectTopic(string countryId, string? subdivisionId = null)
+        {
+            var countries = _storageService.LoadCountries();
+            var country = countries.FirstOrDefault(c => c.Id == countryId);
+
+            if (country == null ) { return NotFound(); }
+
+            Subdivision subdivision = null;
+            
+            if (subdivisionId != null)
+            {
+                var subdivisions = _storageService.LoadSubdivisions(countryId);
+                subdivision = subdivisions.FirstOrDefault(s => s.Id == subdivisionId);
+            }
+ 
+            var topics = _storageService.LoadTopics();
+
+            var model = new SelectTopicViewModel
+            {
+                Country = country,
+                Subdivision = subdivision,
+                Topics = topics
+            };
+
+            return View(model);
         }
     }
 }
