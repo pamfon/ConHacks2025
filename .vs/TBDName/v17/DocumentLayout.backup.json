@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\questionprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\questionprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\ollamaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\ollamaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\data\\subdivisions.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\data\\subdivisions.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -75,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\selecttopicviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -130,23 +150,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StorageService.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\StorageService.cs",
-              "RelativeDocumentMoniker": "TBDName\\Services\\StorageService.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\StorageService.cs",
-              "RelativeToolTip": "TBDName\\Services\\StorageService.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAowIIAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AIService.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\AIService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\AIService.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\AIService.cs",
+              "RelativeToolTip": "TBDName\\Services\\AIService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T21:28:46.713Z"
+              "WhenOpened": "2025-03-01T21:38:52.965Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParentController.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\ParentController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\ParentController.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\ParentController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\ParentController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:41:55.798Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\AIController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\AIController.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\AIController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\AIController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:38:59.813Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OllamaService.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\OllamaService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\OllamaService.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\OllamaService.cs",
+              "RelativeToolTip": "TBDName\\Services\\OllamaService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:45:11.427Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "QuestionPrompt.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\QuestionPrompt.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\QuestionPrompt.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\QuestionPrompt.cs",
+              "RelativeToolTip": "TBDName\\Models\\QuestionPrompt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:54:08.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Countries.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Countries.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Countries.csv",
@@ -158,7 +235,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "SelectTopic.cshtml",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T21:28:46.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\StorageService.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\StorageService.cs",
+              "RelativeToolTip": "TBDName\\Services\\StorageService.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAowIIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:28:46.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Subdivisions.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Subdivisions.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Subdivisions.csv",
@@ -171,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\HomeController.cs",
@@ -183,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\User.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\User.cs",
@@ -195,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Topic.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Topic.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Topic.cs",
@@ -207,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Subdivision.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Subdivision.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Subdivision.cs",
@@ -219,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Question.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Question.cs",
@@ -231,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\GameSession.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\GameSession.cs",
@@ -243,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\ErrorViewModel.cs",
@@ -255,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Enemy.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Enemy.cs",
@@ -267,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Country.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Country.cs",
@@ -279,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Boss.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Boss.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Boss.cs",
@@ -291,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "SelectCountry.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectCountry.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectCountry.cshtml",
@@ -303,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "SelectLevel.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectLevel.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectLevel.cshtml",
@@ -315,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\Shared\\Error.cshtml",
@@ -327,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "SelectLevelViewModel.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectLevelViewModel.cs",
               "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectLevelViewModel.cs",
@@ -339,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "SelectTopicViewModel.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectTopicViewModel.cs",
               "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectTopicViewModel.cs",
@@ -351,19 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SelectTopic.cshtml",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "RelativeToolTip": "TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T21:28:46.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "TBDName\\wwwroot\\css\\styles.css",
@@ -375,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\UserController.cs",
@@ -387,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Topics.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Topics.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Topics.csv",
@@ -399,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Users.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Users.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Users.csv",
@@ -411,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Program.cs",
               "RelativeDocumentMoniker": "TBDName\\Program.cs",
@@ -423,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\Home\\Index.cshtml",
@@ -435,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Stats.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\User\\Stats.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\User\\Stats.cshtml",
@@ -447,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "QuestionService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\QuestionService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\QuestionService.cs",
@@ -459,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "GameEngineService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\GameEngineService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\GameEngineService.cs",
@@ -471,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "EvaluationService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\EvaluationService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\EvaluationService.cs",
@@ -483,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\GameController.cs",

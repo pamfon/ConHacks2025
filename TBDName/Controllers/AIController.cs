@@ -6,13 +6,11 @@ using TBDName.ViewModels;
 
 namespace TBDName.Controllers
 {
-	public class AIController : Controller
+	public class AIController : ParentController
 	{
-		private readonly OllamaApiClient _OllamaClient;
-
-		public AIController(OllamaApiClient ollamaClient)
+		public AIController(OllamaApiClient ollamaClient) : base(ollamaClient)
 		{
-			_OllamaClient = ollamaClient;
+
 		}
 
 		[HttpGet]
@@ -24,12 +22,8 @@ namespace TBDName.Controllers
 		[HttpPost]
 		public async Task<IActionResult> GenResponse(AITestViewModel model)
 		{
-			string response = "";
+			string response = await _AIService.GenResponse(model.Prompt);
 
-			await foreach (var token in _OllamaClient.GenerateAsync(model.Prompt)) 
-			{
-				response += token.Response;
-			}
 			ViewBag.response = response;
 
 			Console.WriteLine(response);

@@ -1,16 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OllamaSharp;
 using TBDName.Services;
 
 namespace TBDName.Controllers
 {
     public class ParentController : Controller
     {
-        //static public OllamaService ollamaService = new OllamaService();
-       // public AIService aiService = new AIService(ollamaService);
+		private readonly OllamaApiClient _OllamaClient;
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+		public AIService _AIService;
+
+		public ParentController(OllamaApiClient ollamaClient)
+		{
+			_OllamaClient = ollamaClient;
+			_AIService = new AIService(_OllamaClient);
+		}
     }
 }

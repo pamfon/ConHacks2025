@@ -1,22 +1,55 @@
-﻿using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using OllamaSharp;
+using System.Threading.Tasks;
+using TBDName.Models;
+using TBDName.ViewModels;
 
 namespace TBDName.Services
 {
 	public class AIService
 	{
-		private readonly OllamaService _ollamaService;
+		private readonly OllamaApiClient _OllamaClient;
 
-		// Inject the OllamaService via constructor
-		public AIService(OllamaService ollamaService)
+		public AIService(OllamaApiClient ollamaClient)
 		{
-			_ollamaService = ollamaService;
+			_OllamaClient = ollamaClient;
 		}
 
-		// Asks the AI for a response based on a string
-		public async Task<string> GenerateResponse(string input)
+		public async Task<string> GenResponse(string prompt)
 		{
-			// Call the OllamaService to get the AI's response
-			return await _ollamaService.GetAIResponseAsync(input);
+			string response = "";
+
+			await foreach (var token in _OllamaClient.GenerateAsync(prompt))
+			{
+				response += token.Response;
+			}
+
+			Console.WriteLine(response);
+			return response;
+		}
+
+		//full location, difficulty, unit, extra
+		public async Task<string> CreateQuestion(QuestionPrompt prompt)
+		{
+			string finalPrompt = $"";
+
+			return await GenResponse(finalPrompt);
+		}
+
+		//full location, difficulty, unit, extra
+		public async Task<string> CreateAnswer(string prompt)
+		{
+			string finalPrompt = $"";
+
+			return await GenResponse(finalPrompt);
+		}
+
+		//returns a rank
+		public async Task<int> RankAnswer(string prompt)
+		{
+			string finalPrompt = $"";
+
+			return int.Parse(await GenResponse(finalPrompt));
 		}
 	}
 }
