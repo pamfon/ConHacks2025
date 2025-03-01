@@ -33,8 +33,15 @@ namespace TBDName.Models
             // Check if the enemy is defeated
             if (CurrentEnemy.IsDefeated())
             {
-                Console.WriteLine($"{CurrentEnemy.Name} is defeated!");
-                Player.GainXP(100); // Example XP reward
+                if (CurrentEnemy.Type == EnemyType.Boss)
+                {
+                    Player.GainXP(50);
+                } 
+                else
+                {
+					Player.GainXP(20);
+				}
+
                 ResetRound();
             }
         }

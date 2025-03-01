@@ -9,6 +9,8 @@
         public int XP { get; set; }
         public int Level { get; set; }
 
+        private const int BaseXPRequirement = 10;
+
         // Constructor to initialize the user with default values
         public User(string userId)
         {
@@ -30,13 +32,22 @@
         public void GainXP(int amount)
         {
             XP += amount;
-            CheckLevelUp();
+
+            while (XP >= GetXPRequirementForNextLevel())
+            {
+                LevelUp();
+            }
         }
 
-        // Method to level up the user based on XP
-        private void CheckLevelUp()
+        private void LevelUp()
         {
+            XP -= GetXPRequirementForNextLevel();
+            Level++;
+        }
 
+        private int GetXPRequirementForNextLevel()
+        {
+            return (int)Math.Ceiling(BaseXPRequirement * Math.Pow(1.2, Level - 1));
         }
 
         // Method to represent the user's current status

@@ -21,12 +21,23 @@ namespace TBDName.Models
         public new void TakeDamage(int damage)
         {
             base.TakeDamage(damage);
+            QuestionsAsked++;
 
             // Boss is defeated if health reaches 0 or the max questions limit is reached
-            if (IsDefeated() || QuestionsAsked >= MaxQuestions)
+            if (IsDefeated())
             {
                 Console.WriteLine($"{Name} has been defeated!");
             }
+
+			if (QuestionsAsked == MaxQuestions)
+			{
+                BossWins();
+			}
+		}
+
+        public void BossWins()
+        {
+            // Logic for the player losing
         }
 
         // Override GetStatus to include max questions and questions asked
