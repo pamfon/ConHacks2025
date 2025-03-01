@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Welcome to the Quiz RPG!</h1>
+<p>Enter your User ID to start playing.</p>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color: red;">
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+}
+
+<form method="post" asp-action="CheckUser">
+    <div>
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required />
+    </div>
+    <button type="submit">Enter</button>
+</form>
+

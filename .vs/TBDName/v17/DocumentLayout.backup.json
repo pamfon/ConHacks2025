@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Paulo\\source\\repos\\TBDName\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\views\\user\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\user\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\models\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\models\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\users\\paulo\\source\\repos\\tbdname\\tbdname\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:08:31.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\StorageService.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\StorageService.cs",
+              "RelativeToolTip": "TBDName\\Services\\StorageService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:59:12.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameEngineService.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\GameEngineService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\GameEngineService.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\GameEngineService.cs",
+              "RelativeToolTip": "TBDName\\Services\\GameEngineService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:58:51.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EvaluationService.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\EvaluationService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\EvaluationService.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\EvaluationService.cs",
+              "RelativeToolTip": "TBDName\\Services\\EvaluationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:58:29.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Services\\QuestionService.cs",
+              "RelativeToolTip": "TBDName\\Services\\QuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:58:14.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Enemy.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Enemy.cs",
+              "RelativeToolTip": "TBDName\\Models\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:53:00.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\User.cs",
+              "RelativeToolTip": "TBDName\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:46:31.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\GameController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:45:08.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:45:24.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stats.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Views\\User\\Stats.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\User\\Stats.cshtml",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Views\\User\\Stats.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\User\\Stats.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T05:10:34.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Boss.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Boss.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\Boss.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Boss.cs",
+              "RelativeToolTip": "TBDName\\Models\\Boss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:54:14.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\GameSession.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\GameSession.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\GameSession.cs",
+              "RelativeToolTip": "TBDName\\Models\\GameSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:56:23.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T05:03:31.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Program.cs",
+              "RelativeDocumentMoniker": "TBDName\\Program.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Program.cs",
+              "RelativeToolTip": "TBDName\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:17:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\Paulo\\source\\repos\\TBDName\\TBDName\\Models\\Question.cs",
+              "RelativeToolTip": "TBDName\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:50:37.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
