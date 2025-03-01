@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jz8yYNC3+00=",
+  "dgSpecHash": "0TRhaNETv8g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bocaj\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\bocaj\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+    "C:\\Users\\bocaj\\.nuget\\packages\\ollamasharp\\5.1.2\\ollamasharp.5.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

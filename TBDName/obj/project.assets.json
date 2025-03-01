@@ -1,26 +1,151 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OllamaSharp/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.3.0-preview.1.25114.11"
+        },
+        "compile": {
+          "lib/net8.0/OllamaSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OllamaSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "sha512": "owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Bcl.AsyncInterfaces.targets",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+      "sha512": "Bh5RqAGzOUTSnx6vLrQqVH5LJXSPYmMF8/worfSmKiJ18blVQRHLqvpcc/JhSdFf/3YTOk2PPpWSX1PK+cbiPQ==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.abstractions/9.3.0-preview.1.25114.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.nuspec"
+      ]
+    },
+    "OllamaSharp/5.1.2": {
+      "sha512": "LJvLm/5xQ6DSjGxFDU8H/sPAxKk5+tKqTGxDcCtBGiMy7t5ivCwkizlEs3v1woC09mo1XI8ZmUxZNkx3Hb2PiQ==",
+      "type": "package",
+      "path": "ollamasharp/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Ollama.png",
+        "README.md",
+        "analyzers/dotnet/cs/OllamaSharp.SourceGenerators.dll",
+        "lib/net8.0/OllamaSharp.dll",
+        "lib/net8.0/OllamaSharp.xml",
+        "lib/net9.0/OllamaSharp.dll",
+        "lib/net9.0/OllamaSharp.xml",
+        "lib/netstandard2.0/OllamaSharp.dll",
+        "lib/netstandard2.0/OllamaSharp.xml",
+        "lib/netstandard2.1/OllamaSharp.dll",
+        "lib/netstandard2.1/OllamaSharp.xml",
+        "ollamasharp.5.1.2.nupkg.sha512",
+        "ollamasharp.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "OllamaSharp >= 5.1.2"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Aden\\.nuget\\packages\\": {}
+    "C:\\Users\\bocaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+      "projectUniqueName": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj",
       "projectName": "TBDName",
-      "projectPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
-      "packagesPath": "C:\\Users\\Aden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\obj\\",
+      "projectPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj",
+      "packagesPath": "C:\\Users\\bocaj\\.nuget\\packages\\",
+      "outputPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bocaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -46,11 +171,18 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "OllamaSharp": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -70,7 +202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

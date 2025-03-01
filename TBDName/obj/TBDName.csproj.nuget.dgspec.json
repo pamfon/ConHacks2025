@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {}
+    "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {
+    "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+        "projectUniqueName": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj",
         "projectName": "TBDName",
-        "projectPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
-        "packagesPath": "C:\\Users\\Aden\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\obj\\",
+        "projectPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\TBDName.csproj",
+        "packagesPath": "C:\\Users\\bocaj\\.nuget\\packages\\",
+        "outputPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bocaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,11 +44,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
