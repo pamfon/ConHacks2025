@@ -223,22 +223,21 @@ azerbaijan,AZ-QAZ,Qazax,District
 azerbaijan,AZ-QBA,Quba,District
 azerbaijan,AZ-QBI,Qubadlı,District
 azerbaijan,AZ-QOB,Qobustan,District
-azerbaijan,AZ-QUS,Qusu ?? (some references vary),District
+azerbaijan,AZ-QUS,Qusar,District
 azerbaijan,AZ-SAB,Sabirabad,District
-azerbaijan,AZ-SAK,Şəki (Sheki) - District portion*,District
+azerbaijan,AZ-SAK,Şəki,District
 azerbaijan,AZ-SAL,Salyan,District
 azerbaijan,AZ-SBN,Şabran,District
 azerbaijan,AZ-SKR,Şamaxı,District
 azerbaijan,AZ-SMI,Samux,District
 azerbaijan,AZ-SMX,Şəmkir,District
-azerbaijan,AZ-SR,?? (some references vary),District
 azerbaijan,AZ-SUS,Şuşa,District
 azerbaijan,AZ-TAR,Tərtər,District
 azerbaijan,AZ-TOV,Tovuz,District
 azerbaijan,AZ-UCA,Ucar,District
-azerbaijan,AZ-XAC,Xaçmaz (Khachmaz),District
+azerbaijan,AZ-XAC,Xaçmaz,District
 azerbaijan,AZ-YAR,Yardımlı,District
-azerbaijan,AZ-YEV,Yevlakh (district portion),District
+azerbaijan,AZ-YEV,Yevlakh (district),District
 azerbaijan,AZ-ZAN,Zəngilan,District
 azerbaijan,AZ-ZAQ,Zaqatala,District
 azerbaijan,AZ-ZAR,Zərdab,District
@@ -346,7 +345,6 @@ bhutan,BT-32,Sarpang,District
 bhutan,BT-33,Bumthang,District
 bhutan,BT-34,Zhemgang,District
 bhutan,BT-41,Trongsa,District
-bhutan,BT-42,Tongsa,District
 bhutan,BT-43,Lhuntse,District
 bhutan,BT-44,Mongar,District
 bhutan,BT-45,Trashigang,District
@@ -463,7 +461,6 @@ burundi,BI-MW,Mwaro,Province
 burundi,BI-NG,Ngozi,Province
 burundi,BI-RT,Rutana,Province
 burundi,BI-RY,Ruyigi,Province
-CountryId,SubdivisionId,Name,Type
 caboverde,CV-BR,Brava,Municipality
 caboverde,CV-BV,Boa Vista,Municipality
 caboverde,CV-CA,Santa Catarina,Municipality
@@ -547,7 +544,6 @@ centralafricanrepublic,CF-MP,Ombella-Mpoko,Prefecture
 centralafricanrepublic,CF-NM,Nana-Mambéré,Prefecture
 centralafricanrepublic,CF-OP,Ouham-Pendé,Prefecture
 centralafricanrepublic,CF-AC,Ouham,Prefecture
-centralafricanrepublic,CF-SE,Sé ?? (some references use CF-SE for Sangha-Mbaéré),Prefecture
 centralafricanrepublic,CF-UK,Ouaka,Prefecture
 centralafricanrepublic,CF-VK,Vakaga,Prefecture
 chad,TD-BA,Batha,Province
@@ -1410,7 +1406,6 @@ jordan,JO-MD,Madaba,Governorate
 jordan,JO-MN,Mafraq,Governorate
 jordan,JO-TA,Tafilah,Governorate
 jordan,JO-AZ,Az Zarqa,Governorate
-jordan,JO-AK,Al Kark,Governorate
 kazakhstan,KZ-AKM,Akmola,Region
 kazakhstan,KZ-AKT,Aktobe,Region
 kazakhstan,KZ-ALM,Almaty (Region),Region
@@ -1576,7 +1571,6 @@ libya,LY-WD,Wadi al Hayaa,Sha'biyah
 libya,LY-WS,Wadi al Shatii,Sha'biyah
 libya,LY-WT,Al Jafara,Sha'biyah
 libya,LY-ZA,Zawiya,Sha'biyah
-libya,LY-BA2,Al Bayda,Sha'biyah
 liechtenstein,LI-01,Balzers,Municipality
 liechtenstein,LI-02,Eschen,Municipality
 liechtenstein,LI-03,Gamprin,Municipality
@@ -1595,7 +1589,7 @@ lithuania,LT-MR,Marijampolė,Apskritis
 lithuania,LT-PN,Panevėžys,Apskritis
 lithuania,LT-SA,Šiauliai,Apskritis
 lithuania,LT-TA,Tauragė,Apskritis
-lithuania,LT-TE,Telm,Apskritis
+lithuania,LT-TE,Telšiai,Apskritis
 lithuania,LT-UT,Utena,Apskritis
 lithuania,LT-VL,Vilnius,Apskritis
 luxembourg,LU-D,Diekirch,Canton
@@ -1608,8 +1602,6 @@ luxembourg,LU-RD,Redange,Canton
 luxembourg,LU-RM,Remich,Canton
 luxembourg,LU-VI,Vianden,Canton
 luxembourg,LU-WI,Wiltz,Canton
-luxembourg,LU-WD,Diekirch,Canton
-luxembourg,LU-CA,Capr, Canton
 madagascar,MG-A,Toamasina,Province
 madagascar,MG-D,Antsiranana,Province
 madagascar,MG-F,Fianarantsoa,Province
@@ -1675,9 +1667,6 @@ maldives,MV-13,Faafu,Atoll
 maldives,MV-14,Dhaalu,Atoll
 maldives,MV-17,Kaafu,Atoll
 maldives,MV-20,Laamu,Atoll
-maldives,MV-23,Gaafu Dhaalu (alternate),Atoll
-maldives,MV-24,Gnaviyani (alternate),Atoll
-maldives,MV-25,Addu (historical code),Atoll
 maldives,MV-MLE,Malé,CapitalCity
 mali,ML-BKO,Bamako,Capital District
 mali,ML-1,Kayes,Region
@@ -1851,14 +1840,13 @@ montenegro,ME-08,Gusinje,Municipality
 montenegro,ME-09,Herceg Novi,Municipality
 montenegro,ME-10,Kolasin,Municipality
 montenegro,ME-11,Kotor,Municipality
-montenegro,ME-12,Leposavic (disputed),Municipality
 montenegro,ME-13,Mojkovac,Municipality
 montenegro,ME-14,Niksic,Municipality
 montenegro,ME-15,Petnjica,Municipality
 montenegro,ME-16,Plav,Municipality
 montenegro,ME-17,Pljevlja,Municipality
 montenegro,ME-18,Pluzine,Municipality
-montenegro,ME-19,POD,Podgorica,Municipality
+montenegro,ME-19,Podgorica,Municipality
 montenegro,ME-20,Rozaje,Municipality
 montenegro,ME-21,Savnik,Municipality
 montenegro,ME-22,Tivat,Municipality
@@ -2271,7 +2259,6 @@ russia,RU-UD,Udmurtia,Republic
 russia,RU-KK,Khakassia,Republic
 russia,RU-CH,Chukotka,Autonomous Okrug
 russia,RU-KM,Khanty-Mansi,Autonomous Okrug
-russia,RU-KO,Komia,Autonomous Okrug
 russia,RU-NO,Nenets,Autonomous Okrug
 russia,RU-YN,Yamalo-Nenets,Autonomous Okrug
 russia,RU-AM,Amur,Oblast
@@ -2330,7 +2317,6 @@ russia,RU-PRI,Primorsky,Krai
 russia,RU-STA,Stavropol,Krai
 russia,RU-KHA,Khabarovsk,Krai
 russia,RU-ALT,Altai,Krai
-russia,RU-TAM,Transbaikal,Krai
 russia,RU-YEV,Jewish Autonomous Oblast,Autonomous Oblast
 saint kitts and nevis,KN-01,Christ Church Nichola Town,Parish
 saint kitts and nevis,KN-02,Saint Anne Sandy Point,Parish
@@ -2372,7 +2358,6 @@ samoa,WS-SA,Satupaitea,District
 samoa,WS-TU,Tuatua,District
 samoa,WS-VF,Vaisigano,District
 samoa,WS-VI,Vaa-o-Fonoti,District
-samoa,WS-VS,Vaisigano,District
 san marino,SM-01,Acquaviva,Castello
 san marino,SM-02,Borgo Maggiore,Castello
 san marino,SM-03,Chiesanuova,Castello
@@ -2475,7 +2460,6 @@ tanzania,TZ-27,Rukwa,Region
 tanzania,TZ-28,Ruvuma,Region
 tanzania,TZ-29,Singida,Region
 tanzania,TZ-30,Songwe,Region
-tanzania,TZ-31,Kusini Unguja,Region
 thailand,TH-10,Bangkok,Special Administrative Area
 thailand,TH-37,Amnat Charoen,Province
 thailand,TH-15,Ang Thong,Province
@@ -2779,7 +2763,7 @@ vietnam,VN-18,Ninh Binh,Province
 vietnam,VN-36,Ninh Thuan,Province
 vietnam,VN-68,Phu Tho,Province
 vietnam,VN-32,Phu Yen,Province
-vietnam,VN-24,Quang Binh,Province
+vietnam,VN-24a,Quang Binh,Province
 vietnam,VN-27,Quang Nam,Province
 vietnam,VN-29,Quang Ngai,Province
 vietnam,VN-13,Quang Ninh,Province
@@ -2796,17 +2780,10 @@ vietnam,VN-51,Tuyen Quang,Province
 vietnam,VN-26,Vinh Long,Province
 vietnam,VN-17,Vinh Phuc,Province
 vietnam,VN-49,Yen Bai,Province
-vanuatu,VU-MAP,Malampa,Province
-vanuatu,VU-PAM,Pénama,Province
-vanuatu,VU-SAM,Sanma,Province
-vanuatu,VU-SEE,Shefa,Province
-vanuatu,VU-TAF,Taféa,Province
-vanuatu,VU-TOB,Torba,Province
 yemen,YE-AB,Abyan,Governorate
 yemen,YE-AD,Ad Dali',Governorate
 yemen,YE-AM,Al Mahwit,Governorate
 yemen,YE-BA,Al Bayda,Governorate
-yemen,YE-DA,Ad Dali',Governorate
 yemen,YE-DH,Dhamar,Governorate
 yemen,YE-HD,Hadramaut,Governorate
 yemen,YE-HJ,Hajjah,Governorate
@@ -2818,11 +2795,9 @@ yemen,YE-MR,Al Mahrah,Governorate
 yemen,YE-MU,Al Hudaydah,Governorate
 yemen,YE-RA,Raimah,Governorate
 yemen,YE-SA,Sa'dah,Governorate
-yemen,YE-SD,Sa'dah,Governorate
 yemen,YE-SH,Shabwah,Governorate
 yemen,YE-SN,Sana'a,Governorate
 yemen,YE-TA,Ta'izz,Governorate
-yemen,YE-SA,Sana'a City,Capital District
 zambia,ZM-01,Central,Province
 zambia,ZM-02,Copperbelt,Province
 zambia,ZM-03,Eastern,Province
