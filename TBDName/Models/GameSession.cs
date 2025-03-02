@@ -6,28 +6,36 @@ namespace TBDName.Models
     public class GameSession
     {
         // Properties to track the current state of the game
-        public User Player { get; set; }
-        public Enemy CurrentEnemy { get; set; }
+      //  public User Player { get; set; }
+     //   public Enemy CurrentEnemy { get; set; }
         public string Question { get; set; }
         public string Feedback { get; set; }
         public string AnswerGiven { get; set; }
         public int CumulativeDamage { get; set; } // Tracks total damage dealt to the enemy
+        //used to check what score overall the player got
+        public int score { get; set; }
+
+        //used to store enemy health
+        public int enemyHealth { get; set; }
+
+        //used to record which round youre on
+        public int round { get; set; }
 
         public bool GameState { get; set; }
 
         // Constructor to initialize a new game session
         public GameSession(User player, Enemy enemy)
         {
-            Player = player;
-            CurrentEnemy = enemy;
+        //    Player = player;
+         //   CurrentEnemy = enemy;
             Question = "";
             CumulativeDamage = 0;
         }
 
         public GameSession()
         {
-            Player = new User("");
-            CurrentEnemy = new Enemy("", 20, EnemyType.Regular);
+        //    Player = new User("");
+        //    CurrentEnemy = new Enemy("", 20, EnemyType.Regular);
             Question = "";
             Feedback = "";
             AnswerGiven = "";
@@ -35,7 +43,7 @@ namespace TBDName.Models
         }
 
         // Method to handle a player's answer and calculate damage
-        public void AnswerQuestion(string userAnswer, EvaluationService evaluationService)
+      /*  public void AnswerQuestion(string userAnswer, EvaluationService evaluationService)
         {
             // Evaluate the player's answer
             int damage = evaluationService.EvaluateAnswer(userAnswer, CurrentEnemy);
@@ -71,8 +79,9 @@ namespace TBDName.Models
 
             QuestionsAsked++;
             Console.WriteLine($"Question {QuestionsAsked}: {CurrentEnemy.GetStatus()}");
-          */
+          
         }
+        
 
         // Method to reset the round when an enemy is defeated
         private void ResetRound()
@@ -87,5 +96,6 @@ namespace TBDName.Models
         {
             return $"{Player.GetStatus()} | Enemy: {CurrentEnemy.GetStatus()} | Questions Asked: {Question}";
         }
+        */
     }
 }

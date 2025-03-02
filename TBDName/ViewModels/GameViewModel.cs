@@ -4,10 +4,11 @@ namespace TBDName.ViewModels
 {
 	public class GameViewModel
 	{
-		public int Level;
-		public string Country;
-		public string Subdivision;
-		public string Topic;
-		public GameSession GameSession;
+		public int Level { get; set; }
+		public string Country { get; set; }
+		public string Subdivision { get; set; }
+		public string Topic { get; set; }
+		public string Answer { get; set; }
+		public GameSession GameSession { get; set; }
 	}
 }

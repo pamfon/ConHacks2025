@@ -1,70 +1,137 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using OllamaSharp;
+using System.Text.Json;
 using TBDName.Models;
 using TBDName.Services;
 using TBDName.ViewModels;
 
 namespace TBDName.Controllers
 {
-    public class GameController : ParentController
-    {
-        private EvaluationService _evaluationService;
+	public class GameController : ParentController
+	{
+		private readonly StorageService _storageService;
 
-        GameController(EvaluationService evaluationService, OllamaApiClient ollamaClient) : base(ollamaClient)
-
+		public GameController(StorageService storageService, OllamaApiClient ollamaClient) : base(ollamaClient)
 		{
-            _evaluationService = evaluationService;
-        }
+			_storageService = storageService;
+		}
 
-        private static GameSession session = new GameSession
-        (
-            new User("Player1"),
-            new Enemy("Goblin", 50, EnemyType.Regular)
-        );
+		// Configure the serializer to include fields
+		private JsonSerializerOptions _jsonOptions = new JsonSerializerOptions { IncludeFields = true };
 
-        [HttpGet("/Index{Id}")]
-        public async Task<IActionResult> Index(int Id, SelectTopicViewModel lastViewModel, string topicName) 
-        {
-            GameViewModel gameModel = new GameViewModel
-            {
-                Level = Id,
-                Country = lastViewModel.Country.Name,
-                Subdivision = lastViewModel.Subdivision.Name ?? "Federal",
-                Topic = topicName,
-                GameSession = new GameSession()
-            };
+		[HttpGet]
+		public async Task<IActionResult> Index(string topic, int level, string country, string subdivision)
+		{
+			GameViewModel gameModel = new GameViewModel
+			{
+				Level = level,
+				Country = country,
+				Subdivision = subdivision ?? "Federal",
+				Topic = topic,
+				GameSession = new GameSession()
+			};
 
-            QuestionPrompt quest = new QuestionPrompt
-            {
-                CountryName = gameModel.Country,
-                SubdivisionName = gameModel.Subdivision,
-                Difficulty = gameModel.Level,
-                TopicName = gameModel.Topic
-            };
+			Random rand = new Random();
+			int temp = rand.Next(3, 6);
 
-            gameModel.GameSession.Question = await _AIService.CreateQuestion(quest);
+			QuestionPrompt quest = new QuestionPrompt
+			{
+				CountryName = gameModel.Country,
+				SubdivisionName = gameModel.Subdivision,
+				Difficulty = gameModel.Level == 6 ? temp : gameModel.Level,
+				TopicName = gameModel.Topic
+			};
+			gameModel.GameSession.enemyHealth = gameModel.Level == 6 ? 15 : 1;
+			gameModel.GameSession.Question = await _AIService.CreateQuestion(quest);
+
+			HttpContext.Session.SetObject("game", gameModel);
 
 			return View("Index", gameModel);
 		}
 
-        [HttpPost]
-        public IActionResult SubmitAnswer(string userAnswer)
-        {
-            session.AnswerQuestion(userAnswer, _evaluationService);
+		[HttpPost]
+		public async Task<IActionResult> Turn(GameViewModel game)
+		{
+			// Preserve the posted answer before retrieving the persisted game state
+			string postedAnswer = game.GameSession == null ? "" : game.GameSession.AnswerGiven;
 
-            ViewBag.Status = session.GetSessionStatus();
-            return View("Index");
-        }
+			game = HttpContext.Session.GetObject<GameViewModel>("game");
+			game.GameSession.AnswerGiven = postedAnswer;
 
-        [HttpPost]
-        public IActionResult NextQuestion(string questionText, string countryName, string subdivisionName,  string topic, int difficulty)
-        {
-            return View("Index");
-        }
+			// Toggle the game state (e.g., switching between question and answer phases)
+			game.GameSession.GameState = !game.GameSession.GameState;
+			if (game.GameSession.GameState) { game.GameSession.round++; }
+			
+			QuestionPrompt quest = new QuestionPrompt
+			{
+				CountryName = game.Country,
+				SubdivisionName = game.Subdivision,
+				Difficulty = game.Level,
+				TopicName = game.Topic
+			};
+			if (game.Level != 6 && game.GameSession.enemyHealth > 0)
+			{
+				if (game.GameSession.GameState)
+				{
+					// If in answer state, create answer and rank it
+					game.GameSession.Feedback = await _AIService.CreateAnswer(game.GameSession.Question);
+					game.GameSession.enemyHealth -= await _AIService.RankAnswer(
+						game.GameSession.Feedback,
+						game.GameSession.Question,
+						game.GameSession.AnswerGiven
+					);
+				}
+				else
+				{
+					// Otherwise, generate a new question
+					game.GameSession.Question = await _AIService.CreateQuestion(quest);
+				}
+			}
+			else if (game.Level == 6 && game.GameSession.enemyHealth > 0 && game.GameSession.round <= 5)
+			{
+				if (game.GameSession.GameState)
+				{
+					// If in answer state, create answer and rank it
+					game.GameSession.Feedback = await _AIService.CreateAnswer(game.GameSession.Question);
+					game.GameSession.enemyHealth -= await _AIService.RankAnswer(
+						game.GameSession.Feedback,
+						game.GameSession.Question,
+						game.GameSession.AnswerGiven
+					);
+				}
+				else
+				{
+					// Otherwise, generate a new question
+					Random rand = new Random();
+					quest.Difficulty = rand.Next(3, 6);
+					game.GameSession.Question = await _AIService.CreateQuestion(quest);
+				}
+			}
+			else
+			{
+				var countries = _storageService.LoadCountries();
+				var country = countries.FirstOrDefault(c => c.Name == game.Country);
+				Console.WriteLine(game.Subdivision);
+				var subdivisions = _storageService.LoadSubdivisions(country.Id);
+				var subdivision = subdivisions.FirstOrDefault(s => s.Name == game.Subdivision);
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-    }
+				// Load available topics
+				var topics = _storageService.LoadTopics();
+
+				SelectTopicViewModel model = new SelectTopicViewModel
+				{
+					Country = country,
+					Subdivision = subdivision,
+					Topics = topics
+				};
+				return RedirectToAction("SelectTopic", "Home", new { countryId = country.Id, subdivisionId = subdivision.Id });
+			}
+
+			// Update TempData for persistence
+			HttpContext.Session.SetObject("game", game);
+
+			return View("Index", game);
+		}
+	}
 }

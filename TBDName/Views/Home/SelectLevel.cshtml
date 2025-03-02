@@ -13,9 +13,13 @@
 <div class="level-button-container">
 
     <div class="button-row" style="justify-content: flex-start;">
-    <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id})">
-        <img src="@levels[random.Next(0,3)]" alt="Federal">
-    </a>
+        <a class="level-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id">
+            <img src="@levels[random.Next(0,3)]" alt="Federal">
+        </a>
+        
+    @*     <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id})"> *@
+        
+    @* </a> *@
 
 		<div class="country-name">Federal</div>
 	</div>
@@ -31,9 +35,13 @@
             <div class="button-row" style="justify-content: flex-start;"></div>
         }
         <div class="button-row" style="justify-content: flex-start;">
-            <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id, subdivisionId = level.Id})">
+            <a class="level-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id" asp-route-subdivisionId="@level.Id">
                 <img src="@levels[random.Next(0,3)]" alt="@level.Name">
             </a>
+            
+            @* <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id, subdivisionId = level.Id})"> *@
+                
+            @* </a> *@
             <div class="country-name">@level.Name</div>
         </div>
         for (int i = 0; i < random.Next(1, 3); i++)

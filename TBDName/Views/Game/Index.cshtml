@@ -1,23 +1,23 @@
-﻿@model TBDName.ViewModels.GameViewModel;
+﻿@model TBDName.ViewModels.GameViewModel
 
-<form method="post" action="Turn">
+<form method="post" asp-action="Turn">
 
-    @{
-        <p>GameSession.QuestionsAsked</p>
-        if (Model.GameSession.GameState)
-        {
-            <p>GameSession.Feedback</p>
-            <p>GameSession.AnswerGiven</p>
+    <p>@Model.GameSession.enemyHealth</p>
+    <p>@Model.GameSession.Question</p>
 
-            <input type="submit" value="Next"/>
-        }
+    <p>Round @Model.GameSession.round</p>
+    <p>damage @Model.GameSession.CumulativeDamage</p>
 
-        else
-        {
-            <label for="Prompt">Answer:</label>
-            <input type="text" id="Prompt" asp-for="GameSession.AnswerGiven" />
-            <input type="submit" value="Answer" />
-        }
+    @if (Model.GameSession.GameState)
+    {
+        <p>@Model.GameSession.Feedback</p>
+        <p>@Model.GameSession.AnswerGiven</p>
+        <input type="submit" value="Next" />
     }
-
+    else
+    {
+        <label for="Prompt">Answer:</label>
+        <input type="text" id="Prompt" asp-for="GameSession.AnswerGiven" />
+        <input type="submit" value="Answer" />
+    }
 </form>

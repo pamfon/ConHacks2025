@@ -47,15 +47,15 @@ namespace TBDName.Services
 		//returns a rank
 		public async Task<int> RankAnswer(string answer, string question, string useranswer)
 		{
-			string finalPrompt = $"Instructions:\r\nEvaluate USERANSWER:'{useranswer}' based on QUESTION:'{question}' and the correct answer ANSWER:'{answer}', using a scale from 0 to 5, where 0 is the lowest.\r\n\r\nContext:\r\nYou are an AI designed to assess student responses in an application that helps them study laws, governments, and rights across different locations.\r\n\r\nTask/Action:\r\nAssign a score based on the accuracy and relevance of the USERANSWER compared to the ANSWER.\r\nProvide an integer score from the following scale:\r\n0 – Completely unrelated or incorrect.\r\n1 – Attempted to answer but incorrect.\r\n2 – Somewhat related but mostly incorrect.\r\n3 – Partially correct (about 50% accurate).\r\n4 – Mostly correct with minor inaccuracies.\r\n5 – Completely correct and well-stated.\r\n\r\nConstraints/Rules:\r\nThe response must be an integer (0, 1, 2, 3, 4, or 5).\r\nAvoid bias or opinion-based evaluations—base the score solely on factual accuracy and relevance.\r\n\r\nExample 1:\r\nQ: What is the minimum legal drinking age in Ontario?\r\nCorrect Answer: 19 years old\r\nUser Answer: 18 years old\r\nScore: 4.\r\n\r\nExample 2:\r\nQ: Which Ontario law governs workplace health and safety regulations?\r\nCorrect Answer: Occupational Health and Safety Act (OHSA)\r\nUser Answer: Workplace Safety Act\r\nScore: 2.\r\n\r\nExample 3:\r\nQ: What is the name of the provincial capital of Ontario?\r\nCorrect Answer: Toronto\r\nUser Answer: Vancouver\r\nScore: 0.\r\n\r\nExample 4:\r\nQ: Under Ontario’s Human Rights Code, what are the five protected grounds that apply to all social areas, including employment, housing, and services?\r\nCorrect Answer: Race, ancestry, place of origin, color, and ethnic origin.\r\nUser Answer: Race, gender, religion, age, and disability.\r\nScore: 3.\r\n\r\nExample 5:\r\nQ: In Ontario, under the Residential Tenancies Act, what is the maximum rent increase a landlord can apply without government approval?\r\nCorrect Answer: 2.5% (for 2024)\r\nUser Answer: 2.5%\r\nScore: 5.";
+			string finalPrompt = $"Instructions:\r\n\r\nEvaluate the USERANSWER:'{useranswer}' to the given QUESTION:'{question}' by comparing it against the CORRECTANSWER:'{answer}'. Assign a score based on how accurate and relevant the USERANSWER is in relation to the CORRECTANSWER.\r\nScoring Scale:\r\n\r\n    0 – Completely unrelated or entirely incorrect.\r\n    1 – Attempted to answer but is mostly incorrect.\r\n    2 – Somewhat related but contains significant inaccuracies.\r\n    3 – Partially correct (approximately 50% accurate).\r\n    4 – Mostly correct with minor errors.\r\n    5 – Almost completely correct, with only slight inaccuracies.\r\n\r\nEvaluation Criteria:\r\n\r\n    Consider factual accuracy—does the USERANSWER contain correct information?\r\n    Consider completeness—does it address all key points of the CORRECTANSWER?\r\n    Consider clarity and relevance—is the answer on-topic and properly stated?\r\n\r\nConstraints/Rules:\r\n\r\n    The response must be a single integer: 0, 1, 2, 3, 4, or 5 (no explanations).\r\nDo not provide anything but a single number.\r\nOnly provide a number and nothing else.\r\n    Do not provide reasoning or feedback, only the integer score.\r\n    Base the score strictly on accuracy and relevance, avoiding subjective judgment.\r\n\r\nExample Format:\r\n\r\n1";
 
 			string response = await GenResponse(finalPrompt);
-
+			Console.WriteLine(response);
 			if (int.TryParse(response, out int val) == null)
 			{
 				return -1;
 			}
-			else 
+			else
 			{
 				return val;
 			}

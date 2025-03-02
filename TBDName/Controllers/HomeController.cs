@@ -115,8 +115,10 @@ namespace TBDName.Controllers
 		/// <param name="countryId">The ID of the selected country.</param>
 		/// <param name="subdivisionId">The optional ID of the selected subdivision (province/state).</param>
 		/// <returns>The SelectTopic view populated with available topics for the given country/subdivision.</returns>
-		public IActionResult SelectTopic(string countryId, string? subdivisionId = null)
+		public IActionResult SelectTopic(string countryId, string? subdivisionId)
 		{
+			Console.WriteLine("Made it to select");
+
 			var countries = _storageService.LoadCountries();
 			var country = countries.FirstOrDefault(c => c.Id == countryId);
 
@@ -139,12 +141,12 @@ namespace TBDName.Controllers
 			var model = new SelectTopicViewModel
 			{
 				Country = country,
-				Subdivision = subdivision,
+				Subdivision = subdivision ?? new Subdivision(),
 				Topics = topics
 			};
 
 			return View(model);
 		}
 	}
-
+	 
 }

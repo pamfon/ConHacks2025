@@ -22,6 +22,14 @@ builder.Services.AddSingleton<OllamaApiClient>(provider =>
     return client;
 });
 
+builder.Services.AddSession(options =>
+{
+	// Set session timeout (adjust as needed)
+	options.IdleTimeout = TimeSpan.FromMinutes(30);
+	options.Cookie.HttpOnly = true;
+	options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
 
@@ -35,7 +43,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();
