@@ -21,7 +21,11 @@
     {
         <div class="topic-card">
             <div onclick="toggleDropdown('@topic.Id')">
-                <h2>@topic.Name</h2>
+                    @{
+                        Random rand = new Random();
+                        int temp = rand.Next(0, 51);
+                    }
+                <h2>@topic.Name <br/>@temp XP</h2>
             </div>
                 <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="1" asp-route-topic="@topic.Id" asp-route-country="@Model.Country.Name" asp-route-subdivision="@Model.Subdivision.Name"><button>level 1</button></a>
                 <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="2" asp-route-topic="@topic.Id" asp-route-country="@Model.Country.Name" asp-route-subdivision="@Model.Subdivision.Name"><button>level 2</button></a>

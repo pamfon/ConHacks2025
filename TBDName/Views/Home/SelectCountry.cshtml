@@ -21,7 +21,11 @@
             <a class="gif-button" style="margin-left: @positions[pos % positions.Length];" href="@Url.Action("SelectLevel", "Home", new { countryId = country.Id})">
                 <img src="@worlds[random.Next(0,4)]" alt="@country.Name">
             </a>
-            <div class="country-name">@country.Name</div>
+            @{
+                Random rand = new Random();
+                int temp = rand.Next(500, 1001);
+            }
+            <div class="country-name">@country.Name <br />@temp XP</div>
         </div>
         for (int i = 0; i < random.Next(2, 5); i++)
         {

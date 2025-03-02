@@ -167,7 +167,8 @@
     font-size: 12px;
     background: none;
     width: 100px;
-    color: black;
+    font-weight: bold;
+    color: white;
     border-radius: 5px;
     background-size: auto;
     padding: 2px;
@@ -235,56 +236,50 @@
 
 
 
-/*Styles for the combat scene*/
+/* Parent container set to flex with two columns */
 .combat-container {
     display: flex;
-    height: 100vh;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Use full viewport height or adjust as needed */
 }
 
-/* Form: Positioned on the left */
-.form-container {
+/* Left Column: Stats and form take up half the screen */
+.stats-container {
     flex: 1;
-    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-/* Health bar: Positioned in the middle-right */
-.health-container {
+/* Right Column: Enemy image centered */
+.enemy-container {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 20%;
-    right: 20%;
+    box-sizing: border-box;
 }
 
-/* Health bar styling */
+/* Ensure the enemy image scales responsively */
+.enemy-image {
+    max-width: 100%;
+    height: auto;
+    /* Optionally set a max-width if you want to limit its size */
+    max-width: 500px;
+}
+
+/* Optional: Adjust the health bar container if needed */
 .health-bar-container {
     width: 200px;
     height: 25px;
     background-color: #444;
     border-radius: 5px;
     overflow: hidden;
-    position: relative;
+    margin-top: 10px;
 }
 
 .health-bar {
     height: 100%;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     transition: width 0.3s ease-in-out;
-}
-
-/* Enemy Image: Positioned in the bottom-right */
-.enemy-container {
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
-}
-
-.enemy-image {
-    width: 150px; /* Adjust size */
-    height: auto;
 }

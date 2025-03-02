@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using OllamaSharp;
+using OllamaSharp.Models;
 using System.Text.Json;
 using TBDName.Models;
 using TBDName.Services;
@@ -31,6 +32,28 @@ namespace TBDName.Controllers
 				Topic = topic,
 				GameSession = new GameSession()
 			};
+
+			switch (level)
+			{
+				case 1:
+					gameModel.Path = Url.Content("~/Images/Blue-Slime.png");
+					break;
+				case 2:
+					gameModel.Path = Url.Content("~/Images/Red-Slime.png");
+					break;
+				case 3:
+					gameModel.Path = Url.Content("~/Images/King-Slime.png");
+					break;
+				case 4:
+					gameModel.Path = Url.Content("~/WorldGifs/Goblin.gif");
+					break;
+				case 5:
+					gameModel.Path = "";
+					break;
+				case 6:
+					gameModel.Path = Url.Content("~/Images/dagon.png");
+					break;
+			}
 
 			Random rand = new Random();
 			int temp = rand.Next(3, 6);
