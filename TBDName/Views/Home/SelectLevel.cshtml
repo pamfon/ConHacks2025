@@ -13,7 +13,7 @@
 <div class="level-button-container">
 
     <div class="button-row" style="justify-content: flex-start;">
-        <a class="level-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id">
+        <a class="gif-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id">
             <img src="@levels[random.Next(0,3)]" alt="Federal">
         </a>
         
@@ -35,7 +35,7 @@
             <div class="button-row" style="justify-content: flex-start;"></div>
         }
         <div class="button-row" style="justify-content: flex-start;">
-            <a class="level-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id" asp-route-subdivisionId="@level.Id">
+            <a class="gif-button" asp-controller="Home" asp-action="SelectTopic" asp-route-countryId="@Model.Country.Id" asp-route-subdivisionId="@level.Id">
                 <img src="@levels[random.Next(0,3)]" alt="@level.Name">
             </a>
             
