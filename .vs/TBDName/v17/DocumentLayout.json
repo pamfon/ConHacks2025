@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selectlevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selectlevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\viewmodels\\selecttopicviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\selecttopicviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selecttopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selectcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selectcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selectlevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selectlevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\viewmodels\\selectlevelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\selectlevelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\ai\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\ai\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\selectcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\selectcountry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,14 +83,6 @@
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\questionprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\evaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\viewmodels\\selecttopicviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\selecttopicviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\viewmodels\\selectlevelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\viewmodels\\selectlevelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -133,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\views\\user\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\views\\user\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|c:\\my files\\school\\semester 4\\conhacks\\conhacks2025\\tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E463105-3A1A-4732-B13A-BC35A898C32F}|TBDName\\TBDName.csproj|solutionrelative:tbdname\\services\\gameengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,17 +154,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "AIController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\AIController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\AIController.cs",
               "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\AIController.cs",
               "RelativeToolTip": "TBDName\\Controllers\\AIController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T22:58:49.926Z",
               "IsPinned": true,
@@ -164,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "AIService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\AIService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\AIService.cs",
@@ -177,13 +185,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "TestPage.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\AI\\TestPage.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\AI\\TestPage.cshtml",
               "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\AI\\TestPage.cshtml",
               "RelativeToolTip": "TBDName\\Views\\AI\\TestPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-01T22:59:05.949Z",
               "IsPinned": true,
@@ -191,54 +199,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "TBDName\\wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "TBDName\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-01T22:51:13.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SelectLevel.cshtml",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectLevel.cshtml",
-              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectLevel.cshtml",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectLevel.cshtml",
-              "RelativeToolTip": "TBDName\\Views\\Home\\SelectLevel.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T22:51:13.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SelectTopic.cshtml",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "RelativeToolTip": "TBDName\\Views\\Home\\SelectTopic.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T22:51:13.759Z",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "TBDName\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\GameController.cs",
+              "RelativeToolTip": "TBDName\\Controllers\\GameController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TBDName\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\GameSession.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\GameSession.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\GameSession.cs",
+              "RelativeToolTip": "TBDName\\Models\\GameSession.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectTopicViewModel.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectTopicViewModel.cs",
+              "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectTopicViewModel.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectTopicViewModel.cs",
+              "RelativeToolTip": "TBDName\\ViewModels\\SelectTopicViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "TBDName\\ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "TBDName\\ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:59:01.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectTopic.cshtml",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Home\\SelectTopic.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwBkAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T22:51:13.786Z",
+              "WhenOpened": "2025-03-01T22:51:13.759Z",
               "EditorCaption": ""
             },
             {
@@ -256,7 +277,96 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameEngineService.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\GameEngineService.cs",
+              "RelativeDocumentMoniker": "TBDName\\Services\\GameEngineService.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\GameEngineService.cs",
+              "RelativeToolTip": "TBDName\\Services\\GameEngineService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SelectLevel.cshtml",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectLevel.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\SelectLevel.cshtml",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\SelectLevel.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Home\\SelectLevel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T22:51:13.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "TBDName\\Models\\Topic.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Topic.cs",
+              "RelativeToolTip": "TBDName\\Models\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SelectLevelViewModel.cs",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectLevelViewModel.cs",
+              "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectLevelViewModel.cs",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectLevelViewModel.cs",
+              "RelativeToolTip": "TBDName\\ViewModels\\SelectLevelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:51:13.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Game\\Index.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Game\\Index.cshtml",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Game\\Index.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Game\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T00:58:41.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "TBDName\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "TBDName\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-01T22:51:13.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TBDName\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TBDName\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T22:51:13.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "StorageService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\StorageService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\StorageService.cs",
@@ -268,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "QuestionService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\QuestionService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\QuestionService.cs",
@@ -280,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Question.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Question.cs",
@@ -292,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "QuestionPrompt.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\QuestionPrompt.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\QuestionPrompt.cs",
@@ -304,31 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "TBDName\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\GameController.cs",
-              "RelativeToolTip": "TBDName\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameSession.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\GameSession.cs",
-              "RelativeDocumentMoniker": "TBDName\\Models\\GameSession.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\GameSession.cs",
-              "RelativeToolTip": "TBDName\\Models\\GameSession.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowDMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "EvaluationService.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\EvaluationService.cs",
               "RelativeDocumentMoniker": "TBDName\\Services\\EvaluationService.cs",
@@ -340,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Boss.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Boss.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Boss.cs",
@@ -352,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Enemy.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Enemy.cs",
@@ -364,31 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Topic.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Topic.cs",
-              "RelativeDocumentMoniker": "TBDName\\Models\\Topic.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Topic.cs",
-              "RelativeToolTip": "TBDName\\Models\\Topic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SelectTopicViewModel.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectTopicViewModel.cs",
-              "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectTopicViewModel.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectTopicViewModel.cs",
-              "RelativeToolTip": "TBDName\\ViewModels\\SelectTopicViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\User.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\User.cs",
@@ -400,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Subdivisions.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Subdivisions.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Subdivisions.csv",
@@ -412,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Countries.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Countries.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Countries.csv",
@@ -424,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\HomeController.cs",
@@ -436,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Subdivision.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Subdivision.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Subdivision.cs",
@@ -448,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\ErrorViewModel.cs",
@@ -460,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Models\\Country.cs",
               "RelativeDocumentMoniker": "TBDName\\Models\\Country.cs",
@@ -472,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\Shared\\Error.cshtml",
@@ -484,19 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "SelectLevelViewModel.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectLevelViewModel.cs",
-              "RelativeDocumentMoniker": "TBDName\\ViewModels\\SelectLevelViewModel.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\ViewModels\\SelectLevelViewModel.cs",
-              "RelativeToolTip": "TBDName\\ViewModels\\SelectLevelViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "TBDName\\Controllers\\UserController.cs",
@@ -508,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Topics.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Topics.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Topics.csv",
@@ -520,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Users.csv",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Data\\Users.csv",
               "RelativeDocumentMoniker": "TBDName\\Data\\Users.csv",
@@ -532,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Program.cs",
               "RelativeDocumentMoniker": "TBDName\\Program.cs",
@@ -544,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Stats.cshtml",
               "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Views\\User\\Stats.cshtml",
               "RelativeDocumentMoniker": "TBDName\\Views\\User\\Stats.cshtml",
@@ -553,18 +603,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-01T22:51:13.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GameEngineService.cs",
-              "DocumentMoniker": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\GameEngineService.cs",
-              "RelativeDocumentMoniker": "TBDName\\Services\\GameEngineService.cs",
-              "ToolTip": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\Services\\GameEngineService.cs",
-              "RelativeToolTip": "TBDName\\Services\\GameEngineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T22:51:13.79Z"
             }
           ]
         }

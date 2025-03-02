@@ -1,0 +1,23 @@
+﻿@model TBDName.ViewModels.GameViewModel;
+
+<form method="post" action="Turn">
+
+    @{
+        <p>GameSession.QuestionsAsked</p>
+        if (Model.GameSession.GameState)
+        {
+            <p>GameSession.Feedback</p>
+            <p>GameSession.AnswerGiven</p>
+
+            <input type="submit" value="Next"/>
+        }
+
+        else
+        {
+            <label for="Prompt">Answer:</label>
+            <input type="text" id="Prompt" asp-for="GameSession.AnswerGiven" />
+            <input type="submit" value="Answer" />
+        }
+    }
+
+</form>
