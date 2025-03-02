@@ -59,7 +59,7 @@ namespace TBDName.Services
 				int difficulty = int.Parse(columns[2]);
 				string expectedAnswer = columns[3];
 
-				questions.Add(new Question(questionText, topic, difficulty, expectedAnswer));
+				//questions.Add(new Question(questionText, topic, difficulty, expectedAnswer));
 			}
 
 			return questions;

@@ -11,7 +11,7 @@ namespace TBDName.Services
             string questionText = $"What is the {topic} concept at difficulty level {difficulty}?"; // Example
             string expectedAnswer = "Answer"; // Placeholder expected answer for demo purposes
 
-            return new Question(questionText, topic, difficulty, expectedAnswer);
+            return null;
         }
     }
 }

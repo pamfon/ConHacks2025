@@ -3,9 +3,11 @@
 <form method="post" asp-action="GenResponse">
     <div>
         <label for="Prompt">Prompt:</label>
-        <input type="text" id="Prompt" asp-for="Prompt" required />
+        <input type="text" id="Prompt" asp-for="Prompt" />
     </div>
 
     <button type="submit">Enter</button>
     <p>@ViewBag.response</p>
+    <p>@ViewBag.answer</p>
+    <p>@ViewBag.rank</p>
 </form>
