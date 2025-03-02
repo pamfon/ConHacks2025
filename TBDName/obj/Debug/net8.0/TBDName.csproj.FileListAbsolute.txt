@@ -99,3 +99,39 @@ C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\bin\Debug\net8.0\Mic
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\bin\Debug\net8.0\OllamaSharp.dll
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.AssemblyReference.cache
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.Up2Date
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\appsettings.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.staticwebassets.runtime.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.exe
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.deps.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.runtimeconfig.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\TBDName.pdb
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\OllamaSharp.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.AssemblyReference.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.AssemblyInfoInputs.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.AssemblyInfo.cs
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.CoreCompileInputs.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.RazorAssemblyInfo.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.RazorAssemblyInfo.cs
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.sourcelink.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets\msbuild.TBDName.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets\msbuild.build.TBDName.props
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TBDName.props
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TBDName.props
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\scopedcss\bundle\TBDName.styles.css
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\scopedcss\projectbundle\TBDName.bundle.scp.css
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.Up2Date
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\refint\TBDName.dll
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.pdb
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.genruntimeconfig.cache
+C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\ref\TBDName.dll
