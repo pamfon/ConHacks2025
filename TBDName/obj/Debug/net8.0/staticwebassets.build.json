@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2lgqTkeOw9CaHVBzaK5Nw/xQ9otwWKo3VoExP/z7Dfs=",
+  "Hash": "Vo6/NGeXkrffLKQalhvsw1GJjYXXWIXTT4WARhh7Z3w=",
   "Source": "TBDName",
   "BasePath": "_content/TBDName",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f1t3g58kp5",
-      "Integrity": "PYZ7XzD1en6paV+3/F+3dFnryoPFgiRHuIJNztAq9nk=",
+      "Fingerprint": "6bn2u42twu",
+      "Integrity": "fk9/C4BUmOK+3CzvIlGcJTfceqtiQbT+O4WGcWzBa7U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -1338,6 +1338,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves1.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/Waves1#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5he331munp",
+      "Integrity": "9ywkemkEn3avk6tzIptUiXM9uIkvxgdEdXma6xsSKOE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\Waves1.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves2.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/Waves2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yfybcz9yhx",
+      "Integrity": "HotBIz7uwLoL3uauTGYWaUBAQOmbXS4G/y2mXCh7L4g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\Waves2.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves3.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/Waves3#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzg1d2y8m8",
+      "Integrity": "tl5ERAx8DViisnzHhrLRuPfbE4Dhf0jRRa2SrenespM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\Waves3.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World1.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/World1#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nxdeg53f9l",
+      "Integrity": "C3K5HhMhUKkML2l/XsBHy1fC691cf4/bnp89K8es6wY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\World1.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World2.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/World2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i6c3bj0cmk",
+      "Integrity": "lojIow1ABB+SXSdQzuDITKIpxKsQfoXncQo3GGLk3P8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\World2.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World3.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/World3#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ym4v0sop1q",
+      "Integrity": "OtmmAkkAluVpO+EQmCoRNrD84hqe0ZLv19nuUOBRzTM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\World3.gif"
+    },
+    {
+      "Identity": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World4.gif",
+      "SourceId": "TBDName",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\",
+      "BasePath": "_content/TBDName",
+      "RelativePath": "WorldGIFs/World4#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0zg1y16fj",
+      "Integrity": "Tg7fMJElPUseZcfTxnvGonnZghcj5XSDm1LxTrWKHdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WorldGIFs\\World4.gif"
     }
   ],
   "Endpoints": [
@@ -1424,6 +1571,51 @@
       ]
     },
     {
+      "Route": "css/styles.6bn2u42twu.css",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fk9/C4BUmOK+3CzvIlGcJTfceqtiQbT+O4WGcWzBa7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:46:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6bn2u42twu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fk9/C4BUmOK+3CzvIlGcJTfceqtiQbT+O4WGcWzBa7U="
+        }
+      ]
+    },
+    {
       "Route": "css/styles.css",
       "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
       "Selectors": [],
@@ -1434,7 +1626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2023"
+          "Value": "2763"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PYZ7XzD1en6paV+3/F+3dFnryoPFgiRHuIJNztAq9nk=\""
+          "Value": "\"fk9/C4BUmOK+3CzvIlGcJTfceqtiQbT+O4WGcWzBa7U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 18:04:29 GMT"
+          "Value": "Sun, 02 Mar 2025 00:46:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,52 +1648,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PYZ7XzD1en6paV+3/F+3dFnryoPFgiRHuIJNztAq9nk="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.f1t3g58kp5.css",
-      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2023"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PYZ7XzD1en6paV+3/F+3dFnryoPFgiRHuIJNztAq9nk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 18:04:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f1t3g58kp5"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PYZ7XzD1en6paV+3/F+3dFnryoPFgiRHuIJNztAq9nk="
+          "Value": "sha256-fk9/C4BUmOK+3CzvIlGcJTfceqtiQbT+O4WGcWzBa7U="
         }
       ]
     },
@@ -6504,6 +6651,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-mHMTUVbvpLK/9Ushq98VQku2HXm5IiRDsR56x/ucXUA="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves1.5he331munp.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ywkemkEn3avk6tzIptUiXM9uIkvxgdEdXma6xsSKOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5he331munp"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/Waves1.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ywkemkEn3avk6tzIptUiXM9uIkvxgdEdXma6xsSKOE="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves1.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ywkemkEn3avk6tzIptUiXM9uIkvxgdEdXma6xsSKOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ywkemkEn3avk6tzIptUiXM9uIkvxgdEdXma6xsSKOE="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves2.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HotBIz7uwLoL3uauTGYWaUBAQOmbXS4G/y2mXCh7L4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HotBIz7uwLoL3uauTGYWaUBAQOmbXS4G/y2mXCh7L4g="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves2.yfybcz9yhx.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HotBIz7uwLoL3uauTGYWaUBAQOmbXS4G/y2mXCh7L4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yfybcz9yhx"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/Waves2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HotBIz7uwLoL3uauTGYWaUBAQOmbXS4G/y2mXCh7L4g="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves3.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tl5ERAx8DViisnzHhrLRuPfbE4Dhf0jRRa2SrenespM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tl5ERAx8DViisnzHhrLRuPfbE4Dhf0jRRa2SrenespM="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/Waves3.uzg1d2y8m8.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tl5ERAx8DViisnzHhrLRuPfbE4Dhf0jRRa2SrenespM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 00:32:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzg1d2y8m8"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/Waves3.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tl5ERAx8DViisnzHhrLRuPfbE4Dhf0jRRa2SrenespM="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World1.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3K5HhMhUKkML2l/XsBHy1fC691cf4/bnp89K8es6wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3K5HhMhUKkML2l/XsBHy1fC691cf4/bnp89K8es6wY="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World1.nxdeg53f9l.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3K5HhMhUKkML2l/XsBHy1fC691cf4/bnp89K8es6wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nxdeg53f9l"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/World1.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3K5HhMhUKkML2l/XsBHy1fC691cf4/bnp89K8es6wY="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World2.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lojIow1ABB+SXSdQzuDITKIpxKsQfoXncQo3GGLk3P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:51:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lojIow1ABB+SXSdQzuDITKIpxKsQfoXncQo3GGLk3P8="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World2.i6c3bj0cmk.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lojIow1ABB+SXSdQzuDITKIpxKsQfoXncQo3GGLk3P8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:51:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i6c3bj0cmk"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/World2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lojIow1ABB+SXSdQzuDITKIpxKsQfoXncQo3GGLk3P8="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World3.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OtmmAkkAluVpO+EQmCoRNrD84hqe0ZLv19nuUOBRzTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:53:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OtmmAkkAluVpO+EQmCoRNrD84hqe0ZLv19nuUOBRzTM="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World3.ym4v0sop1q.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World3.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OtmmAkkAluVpO+EQmCoRNrD84hqe0ZLv19nuUOBRzTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:53:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ym4v0sop1q"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/World3.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OtmmAkkAluVpO+EQmCoRNrD84hqe0ZLv19nuUOBRzTM="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World4.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World4.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tg7fMJElPUseZcfTxnvGonnZghcj5XSDm1LxTrWKHdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:54:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg7fMJElPUseZcfTxnvGonnZghcj5XSDm1LxTrWKHdI="
+        }
+      ]
+    },
+    {
+      "Route": "WorldGIFs/World4.u0zg1y16fj.gif",
+      "AssetFile": "C:\\My Files\\School\\Semester 4\\ConHacks\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\World4.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tg7fMJElPUseZcfTxnvGonnZghcj5XSDm1LxTrWKHdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:54:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0zg1y16fj"
+        },
+        {
+          "Name": "label",
+          "Value": "WorldGIFs/World4.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tg7fMJElPUseZcfTxnvGonnZghcj5XSDm1LxTrWKHdI="
         }
       ]
     }

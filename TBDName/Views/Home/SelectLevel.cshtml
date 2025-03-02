@@ -1,27 +1,38 @@
-﻿@model TBDName.ViewModels.SelectLevelViewModel
+﻿@model List<TBDName.Models.Country>
+
 
 @{
-	ViewData["Title"] = "Select Level";
+    ViewData["Title"] = "Select a Country";
+    var waves = new[] { $"/WorldGifs/Waves1.gif", $"/WorldGifs/Waves2.gif", $"/WorldGifs/Waves3.gif" };
+    var worlds = new[] { $"/WorldGifs/World1.gif", $"/WorldGifs/World2.gif", $"/WorldGifs/World3.gif", $"/WorldGifs/World4.gif" };
+    var positions = new[] { "0%", "25%", "50%", "75%", "100%" };
+    Random random = new Random();
 }
 
 <link rel="stylesheet" href="~/css/styles.css" />
+<h1>Select a Country</h1>
+<div class="button-container">
 
-<h1>Select your Government Level!</h1>
-<p>You are playing in <b>@Model.Country.Name</b></p>
+    @foreach (var country in Model)
+    {
+        var pos = random.Next(0, 4);
 
-<div class="card-container">
-	<a href="@Url.Action("SelectTopic", "Home", new {countryId = Model.Country.Id })" class="card card-level">
-		<h2>Federal</h2>
-	</a>
-
-	@if (Model.Subdivisions.Any())
-	{
-		@foreach (var subdivision in Model.Subdivisions)
-		{
-				<a href="@Url.Action("SelectTopic", "Home", new { countryId = Model.Country.Id, subdivisionId = subdivision.Id })", class="card card-level">
-				<h2>@subdivision.Name</h2>
-				<p>@subdivision.Type</p>
-				</a>
-		}
-	}
+        <div class="button-row" style="justify-content: flex-start;">
+            <a class="gif-button" style="margin-left: @positions[pos % positions.Length];" href="@Url.Action("SelectLevel", "Home", new { countryId = country.Id})">
+                <img src="@worlds[random.Next(0,4)]" alt="@country.Name">
+            </a>
+            <div class="country-name">@country.Name</div>
+        </div>
+        for (int i = 0; i < random.Next(2, 5); i++)
+        {
+            if (random.Next(0, 4) == 1)
+            {
+                <div class="button-row" style="justify-content: flex-start;"><img src="@waves[random.Next(0,3)]" /></div>
+            }
+            else
+            {
+                <div class="button-row" style="justify-content: flex-start;"></div>
+            }
+        }
+    }
 </div>

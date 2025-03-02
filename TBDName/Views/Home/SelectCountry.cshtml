@@ -1,21 +1,38 @@
 ﻿@model List<TBDName.Models.Country>
 
+
 @{
-	ViewData["Title"] = "Select a Country";
+    ViewData["Title"] = "Select a Country";
+    var waves = new[] { $"/WorldGifs/Waves1.gif", $"/WorldGifs/Waves2.gif", $"/WorldGifs/Waves3.gif" };
+    var worlds = new[] { $"/WorldGifs/World1.gif", $"/WorldGifs/World2.gif", $"/WorldGifs/World3.gif", $"/WorldGifs/World4.gif" };
+    var positions = new[] { "0%", "25%", "50%", "75%", "100%" };
+    Random random = new Random();
 }
 
 <link rel="stylesheet" href="~/css/styles.css" />
+<h1>Select a Country</h1>
+<div class="button-container">
 
-<div>
-	<h1>Select a Country</h1>
-</div>
+    @foreach (var country in Model)
+    {
+        var pos = random.Next(0, 4);
 
-<div class="card-container">
-
-	@foreach (var country in Model)
-	{
-		<a href="@Url.Action("SelectLevel", "Home", new { countryId = country.Id})" class="card card-country">
-			<h2>@country.Name</h2>
-		</a>
-	}
+        <div class="button-row" style="justify-content: flex-start;">
+            <a class="gif-button" style="margin-left: @positions[pos % positions.Length];" href="@Url.Action("SelectLevel", "Home", new { countryId = country.Id})">
+                <img src="@worlds[random.Next(0,4)]" alt="@country.Name">
+            </a>
+            <div class="country-name">@country.Name</div>
+        </div>
+        for (int i = 0; i < random.Next(2, 5); i++)
+        {
+            if (random.Next(0, 4) == 1)
+            {
+                <div class="button-row" style="justify-content: flex-start;"><img src="@waves[random.Next(0,3)]" /></div>
+            }
+            else
+            {
+                <div class="button-row" style="justify-content: flex-start;"></div>
+            }
+        }
+    }
 </div>

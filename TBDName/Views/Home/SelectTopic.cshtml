@@ -18,17 +18,11 @@
 		<div class="card card-topic" onclick="toggleDropdown("@topic.Id")">
 			<h2>@topic.Name</h2>
 		</div>
-
-		<div id="dropdown-@topic.Id" class="dropdown-container">
-			<a href="@Url.Action("StartFight", "Game", new { countryId = Model.Country.Id, subdivisionId = Model.Subdivision?.Id, topicId = topic.Id, mode = "practice" })" class="dropdown-option">Practice Battle</a>
-			<a href="@Url.Action("StartFight", "Game", new { countryId = Model.Country.Id, subdivisionId = Model.Subdivision?.Id, topicId = topic.Id, mode = "quiz" })" class="dropdown-option">Boss Quiz</a>
-		</div>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level = "1"><button>level 1</button></a>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="2"><button>level 2</button></a>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="3"><button>level 3</button></a>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="4"><button>level 4</button></a>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="5"><button>level 5</button></a>
+		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="6"> <button>Quiz</button></a>
 	}
 </div>
-
-<script>
-	function toggleDropdown(topicId) {
-		var dropdown = document.getElementById("dropdown-" + topicId);
-		dropdown.classList.toggle('show-dropdown');
-	}
-</script>

@@ -59,3 +59,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\WorldGIFs\Waves1.gif
+wwwroot\WorldGIFs\Waves2.gif
+wwwroot\WorldGIFs\Waves3.gif
+wwwroot\WorldGIFs\World1.gif
+wwwroot\WorldGIFs\World2.gif
+wwwroot\WorldGIFs\World3.gif
+wwwroot\WorldGIFs\World4.gif

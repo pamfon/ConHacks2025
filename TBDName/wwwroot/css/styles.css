@@ -2,23 +2,21 @@
     font-size: 16px;
 }
 
-/* Container to align cards properly */
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.25rem;
     justify-content: center;
-    align-items: stretch; /* Ensures all cards stretch to the same height */
+    align-items: stretch; 
 }
 
-/* Base Card Style */
 .card {
     background: #fff;
     border: 0.1rem solid #ddd;
     border-radius: 0.5rem;
     padding: 1.25rem;
-    width: 14rem; /* Fixed width */
-    height: 6rem; /* Fixed height to match all cards */
+    width: 14rem; 
+    height: 6rem;
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -27,16 +25,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centers text inside */
+    justify-content: center;
 }
 
-/* Hover effect */
 .card:hover {
     transform: translateY(-0.5rem);
     box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-/* Ensure text inside doesn't break */
 .card h2 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -56,11 +52,11 @@
 }
 
 .card-country {
-    background: linear-gradient(to bottom, #f0f8ff, #dceaf7); /* Light blue */
+    background: linear-gradient(to bottom, #f0f8ff, #dceaf7); 
 }
 
 .card-topic {
-    background: linear-gradient(to bottom, #fff8e1, #ffe0b2); /* Light yellow */
+    background: linear-gradient(to bottom, #fff8e1, #ffe0b2); 
 }
 
 .dropdown-container {
@@ -92,5 +88,63 @@
 }
 
 .card-level {
-    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); /* Light green */
+    background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); 
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 100px;
+    border: blue 3px;
+    border-radius: 100px;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    width: 50px;
+}
+
+.gif-button {
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+    .gif-button:hover {
+        width: 130px;
+        height: 130px;
+    }
+
+        .gif-button:hover .country-name {
+            background: grey;
+            font-size: 15px;
+        }
+
+    .gif-button img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+
+
+.country-name {
+    font-size: 12px;
+    background: none;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    background-size: auto;
+    padding: 2px;
+    text-align: center;
+    background-position: center;
 }
