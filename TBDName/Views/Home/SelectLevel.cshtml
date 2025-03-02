@@ -2,18 +2,50 @@
 
 @{
     ViewData["Title"] = "Select a Level";
+    var ambient = new[] { $"/Images/Trees1.png", $"/Images/Trees2.png", $"/Images/Trees3.png" };
+    var levels = new[] { $"/WorldGifs/Houses1.gif", $"/WorldGifs/Houses2.gif", $"/WorldGifs/Houses3.gif"};
+    var positions = new[] { "0%", "25%", "50%", "75%", "100%" };
+    Random random = new Random();
 }
 
 <link rel="stylesheet" href="~/css/styles.css" />
-<h1>Select a Level from @Model.Country.Name</h1>
-<div class="level-container">
+<h1>Select a Level in @Model.Country.Name</h1>
+<div class="level-button-container">
 
-    @foreach (var Level in Model.Subdivisions)
+    <div class="button-row" style="justify-content: flex-start;">
+    <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id})">
+        <img src="@levels[random.Next(0,3)]" alt="Federal">
+    </a>
+
+		<div class="country-name">Federal</div>
+	</div>
+    @foreach (var level in Model.Subdivisions)
     {
-        <div class="level-button">
-        <a class="level-button" href="@Url.Action("SelectTopic", "Home", new { CountryId = Model.Country.Id, LevelId = Level.Id})">
-            @Level.Name
+        var pos = random.Next(0, 4);
+        if (random.Next(0, 4) == 1)
+        {
+            <div class="button-row" style="justify-content: flex-start;"><img src="@ambient[random.Next(0,3)]" /></div>
+        }
+        else
+        {
+            <div class="button-row" style="justify-content: flex-start;"></div>
+        }
+        <div class="button-row" style="justify-content: flex-start;">
+            <a class="gif-button" href="@Url.Action("SelectTopic", "Home", new { countryId = @Model.Country.Id, subdivisionId = level.Id})">
+                <img src="@levels[random.Next(0,3)]" alt="@level.Name">
             </a>
+            <div class="country-name">@level.Name</div>
         </div>
+        for (int i = 0; i < random.Next(1, 3); i++)
+        {
+            if (random.Next(0, 3) == 1)
+            {
+                <div class="button-row" style="justify-content: flex-start;"><img src="@ambient[random.Next(0,3)]" /></div>
+            }
+            else
+            {
+                <div class="button-row" style="justify-content: flex-start;"></div>
+            }
+        }
     }
 </div>

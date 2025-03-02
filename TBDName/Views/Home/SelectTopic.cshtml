@@ -3,7 +3,11 @@
 @{
 	ViewData["Title"] = "Select a Topic";
 }
-
+<body style="background-color: lightblue;
+    background-image: url('/Images/Background.png');
+    background-size: cover;
+    background-position: center;">
+<link rel="stylesheet" href="~/css/styles.css" />
 <h1>Select a Topic</h1>
 <p>
 	You are playing in <b>
@@ -11,18 +15,21 @@
 	</b> of <b>@Model.Country.Name</b>
 </p>
 
-<div class="card-container">
-	@foreach(var topic in Model.Topics) 
-	{
-		
-		<div class="card card-topic" onclick="toggleDropdown("@topic.Id")">
-			<h2>@topic.Name</h2>
-		</div>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="1" asp-route-topic="topic.Id"><button>level 1</button></a>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="2" asp-route-topic="topic.Id"><button>level 2</button></a>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="3" asp-route-topic="topic.Id"><button>level 3</button></a>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="4" asp-route-topic="topic.Id"><button>level 4</button></a>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="5" asp-route-topic="topic.Id"><button>level 5</button></a>
-		<a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="6" asp-route-topic="topic.Id"><button>Quiz</button></a>
-	}
+
+<div class="topics-container">
+    @foreach (var topic in Model.Topics)
+    {
+        <div class="topic-card">
+            <div onclick="toggleDropdown('@topic.Id')">
+                <h2>@topic.Name</h2>
+            </div>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="1" asp-route-topic="@topic.Id"><button>Level 1</button></a>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="2" asp-route-topic="@topic.Id"><button>Level 2</button></a>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="3" asp-route-topic="@topic.Id"><button>Level 3</button></a>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="4" asp-route-topic="@topic.Id"><button>Level 4</button></a>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="5" asp-route-topic="@topic.Id"><button>Level 5</button></a>
+            <a class="link-primary" asp-controller="Game" asp-action="Index" asp-route-level="6" asp-route-topic="@topic.Id"><button>Quiz</button></a>
+        </div>
+    }
 </div>
+</body>

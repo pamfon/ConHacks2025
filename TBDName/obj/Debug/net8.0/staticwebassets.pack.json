@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\TBDName.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\Images\\Background.png",
+      "PackagePath": "staticwebassets\\Images\\Background.png"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\Images\\Door.png",
+      "PackagePath": "staticwebassets\\Images\\Door.png"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\Images\\Trees1.png",
+      "PackagePath": "staticwebassets\\Images\\Trees1.png"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\Images\\Trees2.png",
+      "PackagePath": "staticwebassets\\Images\\Trees2.png"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\Images\\Trees3.png",
+      "PackagePath": "staticwebassets\\Images\\Trees3.png"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Houses1.gif",
+      "PackagePath": "staticwebassets\\WorldGIFs\\Houses1.gif"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Houses2.gif",
+      "PackagePath": "staticwebassets\\WorldGIFs\\Houses2.gif"
+    },
+    {
+      "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Houses3.gif",
+      "PackagePath": "staticwebassets\\WorldGIFs\\Houses3.gif"
+    },
+    {
       "Id": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\wwwroot\\WorldGIFs\\Waves1.gif",
       "PackagePath": "staticwebassets\\WorldGIFs\\Waves1.gif"
     },
