@@ -1,23 +1,76 @@
 ﻿@model TBDName.ViewModels.GameViewModel
-
-<form method="post" asp-action="Turn">
-
-    <p>@Model.GameSession.enemyHealth</p>
-    <p>@Model.GameSession.Question</p>
-
-    <p>Round @Model.GameSession.round</p>
-    <p>damage @Model.GameSession.CumulativeDamage</p>
-
-    @if (Model.GameSession.GameState)
+@{
+    int health = Model.GameSession.enemyHealth; // Get health from model
+    int maxHealth = 15; // Define max health
+    int healthPercentage = (int)((health / (double)maxHealth) * 100); // Convert to percentage
+    string enemyPath = "";
+    switch (Model.Level)
     {
-        <p>@Model.GameSession.Feedback</p>
-        <p>@Model.GameSession.AnswerGiven</p>
-        <input type="submit" value="Next" />
+        case 1:
+            enemyPath = "~/Images/Blue-Slime.png";
+            break;
+        case 2:
+            enemyPath = "~/Images/Red-Slime.png";
+            break;
+        case 3:
+            enemyPath = "~/Images/King-Slime.png";
+            break;
+        case 4:
+            enemyPath = "~/WorldGifs/Goblin.gif";
+            break;
+                    case 5:
+            enemyPath = "";
+            break;
+        case 6:
+            enemyPath = "~/Images/dagon.png";
+            break;
+    
+    
     }
-    else
-    {
-        <label for="Prompt">Answer:</label>
-        <input type="text" id="Prompt" asp-for="GameSession.AnswerGiven" />
-        <input type="submit" value="Answer" />
-    }
-</form>
+
+}
+<body style="background-color: lightblue;
+    background-image: url('/Images/Background.png');
+    background-size: cover;
+    background-position: center;">
+    
+<div class="combat-container">
+    <!-- Form (Left Side) -->
+    <div class="form-container">
+            <form method="post" asp-action="Turn">
+
+                <p>@Model.GameSession.enemyHealth</p>
+                <p>@Model.GameSession.Question</p>
+
+                <p>Round @Model.GameSession.round</p>
+                <p>damage @Model.GameSession.CumulativeDamage</p>
+
+                @if (Model.GameSession.GameState)
+                {
+                    <p>@Model.GameSession.Feedback</p>
+                    <p>@Model.GameSession.AnswerGiven</p>
+                    <input type="submit" value="Next" />
+                }
+                else
+                {
+                    <label for="Prompt">Answer:</label>
+                    <input type="text" id="Prompt" asp-for="GameSession.AnswerGiven" />
+                    <input type="submit" value="Answer" />
+                }
+            </form>
+    </div>
+
+    <!-- Health Bar (Middle-Right) -->
+    <div class="health-container">
+        <p>Enemy Health: @health / @maxHealth</p>
+        <div class="health-bar-container">
+            <div class="health-bar" style="width: @healthPercentage%;"></div>
+        </div>
+    </div>
+
+    <!-- Enemy Image (Bottom-Right) -->
+        <div class="enemy-container">
+            <img src="~/WorldGIFs/Goblin.gif" alt="Enemy" class="enemy-image">
+        </div>
+    </div>
+</body>
