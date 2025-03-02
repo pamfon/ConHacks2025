@@ -2,22 +2,30 @@
     ViewData["Title"] = "Home";
 }
 
-<h1>Welcome to the Quiz RPG!</h1>
-<p>Enter your User ID to start playing.</p>
+<link rel="stylesheet" href="~/css/styles.css" />
 
-@if (ViewBag.ErrorMessage != null)
-{
-    <div style="color: red;">
-        <p>@ViewBag.ErrorMessage</p>
+<body style="background-color: lightblue; background-image: url('/Images/Background.png'); background-size: cover; background-position: center;">
+
+    <div style="background-color: #333; border: 3px double #fff; border-radius: 4px; padding: 1rem; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) inset; width: 100%; text-align: center; font-family: 'Press Start 2P', monospace; color: #fff;">
+        <h1 style="color: white; font-family: 'Press Start 2P', monospace;">Welcome to the PhiloCivil!</h1>
+        <p style="color: white; font-family: 'Press Start 2P', monospace;">Enter your User ID to start playing.</p>
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div style="color: red;">
+                <p>@ViewBag.ErrorMessage</p>
+            </div>
+        }
+
+        <div class="form-container">
+            <form method="post" asp-action="CheckUser">
+                <div>
+                    <label for="userId">User ID:</label>
+                    <input type="text" id="userId" name="userId" required />
+                </div>
+                <button type="submit">Enter</button>
+            </form>
+        </div>
     </div>
-}
+</body>
 
-<form method="post" asp-action="CheckUser">
-    <div>
-        <label for="userId">User ID:</label>
-        <input type="text" id="userId" name="userId" required />
-    </div>
-    <button type="submit">Enter</button>
-</form>
-
-<a class="link-primary" asp-controller="AI" asp-action="TestPage"> Check Customers</a>

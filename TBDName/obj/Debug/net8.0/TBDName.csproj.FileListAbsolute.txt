@@ -135,3 +135,8 @@ C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\r
 C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.pdb
 C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.genruntimeconfig.cache
 C:\Users\tiger\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\ref\TBDName.dll
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.AssemblyReference.cache
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\bin\Debug\net8.0\OllamaSharp.dll
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.Up2Date

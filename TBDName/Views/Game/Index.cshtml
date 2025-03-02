@@ -1,25 +1,38 @@
-﻿@model TBDName.ViewModels.GameViewModel
+﻿@model Philocivil.ViewModels.GameViewModel
 @{
+    ViewData["Title"] = "Battle";
+
     int health = Model.GameSession.enemyHealth; // Get health from model
     int maxHealth = 15; // Define max health
     int healthPercentage = (int)((health / (double)maxHealth) * 100); // Convert to percentage
 }
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
 <body style="background-color: lightblue; background-image: url('/Images/Background.png'); background-size: cover; background-position: center;">
+    
     <div class="combat-container">
-        <!-- Left Column: Stats & Form -->
-        <div class="stats-container">
+        <div class="combat-content">
+            <div class="health-container">
+                <p>Enemy Health: @health / @maxHealth</p>
+                <div class="health-bar-container">
+                    <div class="health-bar" style="width: @healthPercentage%;"></div>
+                </div>
+            </div>
+
+            <div class="enemy-box">
+                <img src="@Model.Path" alt="Enemy" class="enemy-image" />
+            </div>
+
             <div class="form-container">
                 <form method="post" asp-action="Turn">
-                    <p>@Model.GameSession.enemyHealth</p>
                     <p>@Model.GameSession.Question</p>
-                    <p>Round @Model.GameSession.round</p>
-                    <p>damage @Model.GameSession.CumulativeDamage</p>
-                    @if (Model.GameSession.GameState)
+                    @if(Model.GameSession.GameState)
                     {
                         <p>@Model.GameSession.Feedback</p>
                         <p>@Model.GameSession.AnswerGiven</p>
                         <input type="submit" value="Next" />
-                    }
+                    } 
                     else
                     {
                         <label for="Prompt">Answer:</label>
@@ -28,18 +41,6 @@
                     }
                 </form>
             </div>
-
-            <div class="health-container">
-                <p>Enemy Health: @health / @maxHealth</p>
-                <div class="health-bar-container">
-                    <div class="health-bar" style="width: @healthPercentage%;"></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Right Column: Enemy Image -->
-        <div class="enemy-container">
-            <img src="@Model.Path" alt="Enemy" class="enemy-image">
         </div>
     </div>
 </body>

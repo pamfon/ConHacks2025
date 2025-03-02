@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Linq;
 
-namespace TBDName.Models
+namespace Philocivil.Models
 {
     public class Boss : Enemy
     {
@@ -29,11 +29,11 @@ namespace TBDName.Models
                 Console.WriteLine($"{Name} has been defeated!");
             }
 
-			if (QuestionsAsked == MaxQuestions)
-			{
+            if (QuestionsAsked == MaxQuestions)
+            {
                 BossWins();
-			}
-		}
+            }
+        }
 
         public void BossWins()
         {

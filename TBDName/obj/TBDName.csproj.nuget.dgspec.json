@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {}
+    "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {
+    "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+        "projectUniqueName": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
         "projectName": "TBDName",
-        "projectPath": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
-        "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\obj\\",
+        "projectPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+        "packagesPath": "C:\\Users\\Aden\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aden\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

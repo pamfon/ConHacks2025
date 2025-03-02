@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "M1DPFcLtv8A=",
+  "dgSpecHash": "2/+pib4FDfQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiger\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\TBDName.csproj",
+  "projectFilePath": "C:\\Users\\Aden\\OneDrive\\Documents\\GitHub\\ConHacks2025\\TBDName\\Philocivil.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tiger\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
-    "C:\\Users\\tiger\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
-    "C:\\Users\\tiger\\.nuget\\packages\\ollamasharp\\5.1.2\\ollamasharp.5.1.2.nupkg.sha512"
+    "C:\\Users\\Aden\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\Aden\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+    "C:\\Users\\Aden\\.nuget\\packages\\ollamasharp\\5.1.2\\ollamasharp.5.1.2.nupkg.sha512"
   ],
   "logs": []
 }
