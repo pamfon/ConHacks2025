@@ -1,30 +1,44 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OllamaSharp;
 using TBDName.Models;
 using TBDName.Services;
+using TBDName.ViewModels;
 
 namespace TBDName.Controllers
 {
-    public class GameController : Controller
+    public class GameController : ParentController
     {
         private EvaluationService _evaluationService;
+        private StorageService _storageService;
 
-        GameController(EvaluationService evaluationService)
-        {
-            _evaluationService = evaluationService;
+		public GameController(OllamaApiClient ollamaClient, EvaluationService evaluationService, StorageService storageService) : base(ollamaClient)
+		{
+			_evaluationService = evaluationService;
+            _storageService = storageService;
         }
 
-        private static GameSession session = new GameSession
-        (
-            new User("Player1"),
-            new Enemy("Goblin", 50, EnemyType.Regular)
-        );
+        private GameSession GetOrCreateGameSession()
+        {
+            if (HttpContext.Session.GetObject<GameSession>("GameSession") == null)
+            {
+                User player = 
+            }
+        }
+
+        public IActionResult Index()
+        {
+            var model = new GameBattleViewModel
+            {
+                Player = _session.Player,
+            };
+        }
 
         [HttpPost]
-        public IActionResult SubmitAnswer(string userAnswer)
+        public async Task<IActionResult> SubmitAnswer(string userAnswer)
         {
-            session.AnswerQuestion(userAnswer, _evaluationService);
+            int score = await _AIService.RankAnswer(userAnswer);
+            string answer = await _AIService.CreateAnswer(userAnswer);
 
-            ViewBag.Status = session.GetSessionStatus();
             return View("Index");
         }
 

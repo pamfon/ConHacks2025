@@ -99,3 +99,4 @@ C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\bin\Debug\net8.0\Mic
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\bin\Debug\net8.0\OllamaSharp.dll
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.AssemblyReference.cache
 C:\My Files\School\Semester 4\ConHacks\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.Up2Date
+C:\Users\Aden\OneDrive\Documents\GitHub\ConHacks2025\TBDName\obj\Debug\net8.0\TBDName.csproj.AssemblyReference.cache
